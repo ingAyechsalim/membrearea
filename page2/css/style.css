@@ -1,0 +1,56 @@
+
+body { 
+	background-image:url(../images/2.jpg);
+	background-attachment:fixed;
+}
+
+
+input{ 
+	background: #FFFFFF; 
+	border: 3px solid whitesmoke; 
+	box-shadow: 0 1px 3px rgba(35, 223, 82, 0.15); 
+	color: #545658; 
+	padding: 8px; 
+	border-radius: 10px; 
+}
+button { 
+	background: white; 
+	border: 1px solid #B7D6DF; 
+	border-radius: 10px; 
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); 
+	color: #437182; 
+	cursor: pointer; 
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+	font-size: 14px;
+	font-weight: bold; 
+	height: auto; 
+	padding: 6px 10px; 
+	text-shadow: 0 1px 0 #FFFFFF; 
+	width: auto; 
+}
+button:hover { 
+		background-color: hsla(133, 85%, 49%, 0.726);
+		color: black;
+	} 
+input:focus:invalid,textarea:focus:invalid
+{
+	border-color: red;
+}
+input:focus:valid,textarea:focus:valid
+{
+	border-color: greenyellow;}
+input:valid + span:before  {
+	content: "\f00c";
+	font-family: "FontAwesome";
+	color:#0a0;
+	font-size: 1.5em;
+  }	
+  input:invalid + span:before  {
+	content: "\f00d";
+	font-family: "FontAwesome";
+	color:#a00;
+	font-size: 1.5em;
+  }
+  input:required
+{background: url(../images/1.png) 02% center no-repeat;
+}

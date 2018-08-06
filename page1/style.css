@@ -1,0 +1,58 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body{
+    background-attachment: fixed;
+    background: url("1.jpg") no-repeat;
+    background-size: 100%;
+    opacity: 0.7;
+    min-height: 100vh;
+      }
+     p{ font-size: 20px;
+       }
+
+      h {
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+     border-color:blue;
+           border-radius: 30%;
+           text-align: center;
+           position: fixed;
+           margin: 10%
+       
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #ada6a6;
+  }
+  .footer a {
+    color: wheat;
+    font-size: 30px;
+    padding: 10px;
+    transition: all .5s ease;
+  }
+  .footer a:first-child {
+    border-left: 2px solid #70726F;
+  }
+  .footer a:hover {
+    color: rgb(47, 84, 204);
+  }
+
+.content2{
+  background: rgb(227, 234, 236);
+  text-align: center;
+  text-anchor: middle;
+    position: absolute;
+    line-height: 30px;
+    padding: 70px 0;
+bottom: 0px;
+width: 100%
+
+}
+      
