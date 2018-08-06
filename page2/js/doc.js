@@ -20,7 +20,7 @@ function validpassword()
 {
     var pwd = document.getElementById("password")
 
-   var regex1 =/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/;
+   var regex1 =/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{6,}$/;
    if(!regex1.test(pwd.value))
    {
 alert("password Non valid");      
